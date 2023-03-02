@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div class="contenido">
+        <div class="linea">
+            <div class="formulario">
+                <form method="post" class="formulario1">
+                    <div class="div_form">
+                        <label for="titulo">Tarea</label>
+                        <input type="text" class="titulo" placeholder="Chuchardo">
+                    </div>  
+                    <div class="div_form">
+                        <label for="descripcion">Descripcion</label>
+                        <textarea class="descripcion"></textarea>
+                    </div>
+                    <div class="div_form">
+                        <button id="enviar" class="button desactivado" type="submit" disabled="true">Agregar</button>
+                        <button id="reiniciar" class="button activado" type="reset" >Reiniciar</button>
+                    </div>
+                </form>
+            </div>
+                
+            <div class="todo">
+                <ul class="contenido-todo">
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="todo.js"></script>
+</body>
